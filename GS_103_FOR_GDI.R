@@ -9,7 +9,7 @@ library(dplyr)
 library(ggplot2)
 
 #Reading in and formatting data
-DF_wide <- read.xlsx("[0.3]GS_unnecesary-columns-omitted-scoring.xlsx", sheetIndex = 1, header = TRUE)
+DF_wide <- read.xlsx("(0.3)GS_FOR_GDI.xlsx", sheetIndex = 1, header = TRUE)
 	str(DF_wide)
 	colnames(DF_wide)
 	
